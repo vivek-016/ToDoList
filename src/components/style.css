@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    text-align: center;
+    padding: 20px;
+    background: #00ABE4;
+    height: 15vh;
+    color: #FFFFFF;
+}
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: lightgray;
+    
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+    height: 50vh;
+    min-width: 50vw;
+    
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ToDoItem{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5px;
+}
+
+.InsertItem{
+    margin-top: 20px;
+    
+}
+
+.ToDoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.ToDoContainer h1{
+    color: #00ABE4;
+}
+
+
+.InsertText{
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: transform 0.2s ease;
+}
+.InsertText:hover {
+    transform: scale(1.1);
+}
+
+
+label{
+    margin-right: 10px;
+    cursor: pointer;
+}
+label:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #00ABE4;
+    width: 60px;
+    transition: transform 0.2s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+label,.edit-btn,.dlt-btn,span{
+    font-size: 1.1rem;
+}
+.checkBox{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
