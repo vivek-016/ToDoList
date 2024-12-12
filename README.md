@@ -7,3 +7,4 @@ To run the app you have to follow the below steps in order
 5. If npm is not there try to reinstall nodeJs as it comes with nodeJs.
 6. After changing the directory to the project folder, use Command "npm install". It installs all the dependencies required for the project from package.json.
 7. Use the command "npm run dev" to run the app in a local server.
+8. Click on the link provided by the terminal in which our app is hosted.
