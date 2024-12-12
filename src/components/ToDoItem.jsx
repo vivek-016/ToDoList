@@ -41,7 +41,7 @@ const onClickEdit = ()=>{
                 className='checkBox' 
                 onChange={onClickCheckBox}
             />
-            <label for={id}>{taskText}</label>
+            <label htmlFor={id}>{taskText}</label>
             <button 
                 className='edit-btn'
                 onClick={onClickEdit}
